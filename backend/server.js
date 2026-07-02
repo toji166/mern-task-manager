@@ -16,7 +16,7 @@ const app = express();
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://mern-task-manager-plum.vercel.app/"
+    "https://mern-task-manager-plum.vercel.app"
   ],
   credentials: true,
 }));
